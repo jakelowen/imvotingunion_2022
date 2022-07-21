@@ -815,4 +815,44 @@ module.exports = [
     name: "No Endorsement",
     sortOrder: 51,
   },
+  {
+    division:
+      "ocd-division/country:us/state:ks/county:sedgwick/council_district:1",
+    office: "Sedgwick County Commission District 1",
+    name: "No Endorsement",
+    sortOrder: 61,
+  },
+  {
+    division:
+      "ocd-division/country:us/state:ks/county:sedgwick/council_district:4",
+    office: "Sedgwick County Commission District 4",
+    name: "Lacy Cruse",
+    sortOrder: 61,
+  },
+  {
+    division:
+      "ocd-division/country:us/state:ks/county:sedgwick/council_district:5",
+    office: "Sedgwick County Commission District 5",
+    name: "John McIntosh",
+    sortOrder: 61,
+  },
+
+  {
+    division: "ocd-division/country:us/state:ks/county:reno/council_district:1",
+    office: "Reno County Commission District 1",
+    name: "No Endorsement",
+    sortOrder: 61,
+  },
+  {
+    division: "ocd-division/country:us/state:ks/county:reno/council_district:4",
+    office: "Reno County Commission District 4",
+    name: "Michael Jobe",
+    sortOrder: 61,
+  },
+  {
+    division: "ocd-division/country:us/state:ks/county:reno/council_district:5",
+    office: "Reno County Commission District 5",
+    name: "Penelope Poitras",
+    sortOrder: 61,
+  },
 ];

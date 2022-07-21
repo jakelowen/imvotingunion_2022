@@ -1,0 +1,97 @@
+html
+    head
+        meta(charset='utf-8')
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Im Voting Union
+        link(rel='stylesheet', href='https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css')
+    body.sans-serif 
+        .main
+            header.bg-gold.sans-serif
+                .mw9.center.pa4.pt5-ns.ph7-l
+                    .f6.mb2.dib.ttu.tracked
+                        small On August 2nd and November 8th
+                    h3.f2.f1-m.f-headline-l.measure-narrow.lh-title.mv0
+                        span.bg-black-90.lh-copy.white.pa1.tracked-tight I'm voting union.
+                    h4.f3.fw1.georgia.i
+                        | Kansas Labor is excited to support candidates who share
+                        | our vision: strong unions, safe workplaces, quality education and vocational
+                        | programs, affordable health care for all, and a Kansas where workeres can 
+                        | provide a high quality of life for their families.
+            .mw9.center.ph3-ns
+                .cf.ph2-ns
+                    .fl.w-100.w-70-ns.pa2
+                        .bg-white.pv4.sans-serif
+                            .pa4
+                                if errorMsg
+                                    div.flex.items-center.justify-center.pa4.bg-lightest-blue.navy
+                                        svg.w1(data-icon="info" viewBox="0 0 32 32" style="fill:currentcolor")
+                                            title info icon
+                                            path(d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6")
+                                        span.lh-title.ml3= errorMsg
+                                else
+                                    .overflow-auto.pa4.black-80
+                                        table.f6.w-100.mw8.center(cellspacing="0")
+                                            thead
+                                                tr
+                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Name
+                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Position
+                                            tbody.lh-copy
+                                                each val in matches
+                                                    tr
+                                                        td.pv3.pr3.bb.b--black-20.b= val.name
+                                                        td.pv3.pr3.bb.b--black-20= val.office
+                    .fl.w-100.w-30-ns.pa2
+                        .bg-white.pv4
+                            div
+                                h3.f1.lh-title.measure-narrow.lh-title.mv0.f1.lh-title.sans-serif
+                                    span.bg-black-90.lh-copy.white.pa1.tracked-tight Register to Vote!
+                                p.normal To register to vote, or request an advanced ballot by mail, go to <a href="http://KSVotes.org">KSVotes.org</a>  
+                                p.normal To check your registration or ballot status go to <a href="https://myvoteinfo.voteks.org/">KS Voter View</a>. 
+            
+                                h3.f1.lh-title.measure-narrow.lh-title.mv0.f1.lh-title.sans-serif.pt5
+                                    span.bg-black-90.lh-copy.white.pa1.tracked-tight Why them?
+
+                                p.normal 
+                                    | The Kansas AFL-CIO and it's Central Labor Councils invite candidates for public office to complete a written survey, 
+                                    | and we follow up and interview those who our committee of union leaders believe deserve further consideration.
+                                p.normal 
+                                    | In order to receive an endorsement from labor, candidates must demonstrate both electoral viability and a strong commitment to the working class agenda. 
+                                    | After a committee interview and discussion, a democratically elected delegate body convenes to finalize all endorsements. 
+                                p.normal 
+                                    | Things won't change if we don't support candidates who support the Labor Movement! We can make sure government works for working people by electing these candidates, 
+                                    | who our delegate assembly believes deserve your vote and will work in your best interests. 
+                        
+                                h3.f1.lh-title.measure-narrow.lh-title.mv0.f1.lh-title.sans-serif.pt5
+                                    span.bg-black-90.lh-copy.white.pa1.tracked-tight Turnout!
+
+                                p.normal
+                                    strong Primary Election:
+                                    br
+                                    |     Tuesday, August 2nd, 2022
+                                
+                                p.normal
+                                    strong Last Day to Register to Vote:
+                                    br
+                                    |     Tuesday, October 18, 2022
+                            
+                                p.normal
+                                    strong Deadline for Advance Ballots Requests:
+                                    br
+                                    |     Tuesday, November 1, 2022
+                            
+                                p.normal
+                                    strong Advance Voting Begins:
+                                    br
+                                    |     Wednesday, October 19, 2022
+                            
+                                p.normal
+                                    strong VOTE on or Before Election Day:
+                                    br
+                                    |     Tuesday, November 8, 2022!
+
+        footer.bg-near-black.white-80.pv5.pv6-l.ph4
+            p.f6
+                span.dib.mr4.mr5-ns
+                    | ©2022 Created and Paid for by the
+                    a.link.white-80.hover-light-purple(href="http://whlaborfed.org")
+                        | Wichita / Hutchinson Labor Federation

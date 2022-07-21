@@ -1,0 +1,19 @@
+{
+  "name": "118-imvotingunion2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "geocodio-library-node": "^1.4.0",
+    "lodash": "^4.17.21",
+    "pug": "^3.0.2"
+  }
+}

@@ -536,7 +536,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:79",
     office: "Kansas House District 79",
-    name: "Endorse Winner of Democratic Primary",
+    name: "Kris Trimmer",
     sortOrder: 51,
   },
   {
@@ -826,7 +826,7 @@ module.exports = [
     division:
       "ocd-division/country:us/state:ks/county:sedgwick/council_district:4",
     office: "Sedgwick County Commission District 4",
-    name: "Lacy Cruse",
+    name: "No Endorsement",
     sortOrder: 61,
   },
   {

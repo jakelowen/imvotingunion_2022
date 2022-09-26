@@ -110,7 +110,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:8",
     office: "Kansas House District 8",
-    name: "To Be Determined",
+    name: "Pam Shernuk",
     sortOrder: 51,
   },
   {
@@ -146,7 +146,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:14",
     office: "Kansas House District 14",
-    name: "To Be Determined",
+    name: "Dennis Miller",
     sortOrder: 51,
   },
   {
@@ -218,7 +218,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:26",
     office: "Kansas House District 26",
-    name: "To Be Determined",
+    name: "Cheron Tiffany",
     sortOrder: 51,
   },
   {
@@ -230,7 +230,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:28",
     office: "Kansas House District 28",
-    name: "To Be Determined",
+    name: "Ace Allen",
     sortOrder: 51,
   },
   {
@@ -296,19 +296,19 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:39",
     office: "Kansas House District 39",
-    name: "To Be Determined",
+    name: "Vanessa Vaughn West",
     sortOrder: 51,
   },
   {
     division: "ocd-division/country:us/state:ks/sldl:40",
     office: "Kansas House District 40",
-    name: "To Be Determined",
+    name: "Martha Allen",
     sortOrder: 51,
   },
   {
     division: "ocd-division/country:us/state:ks/sldl:41",
     office: "Kansas House District 41",
-    name: "To Be Determined",
+    name: "Harry Schwarz",
     sortOrder: 51,
   },
   {
@@ -356,7 +356,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:49",
     office: "Kansas House District 49",
-    name: "To Be Determined",
+    name: "Brad Boyd",
     sortOrder: 51,
   },
   {
@@ -374,13 +374,13 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:52",
     office: "Kansas House District 52",
-    name: "To Be Determined",
+    name: "Derik Flerlage",
     sortOrder: 51,
   },
   {
     division: "ocd-division/country:us/state:ks/sldl:53",
     office: "Kansas House District 53",
-    name: "To Be Determined",
+    name: "Kirk Haskins",
     sortOrder: 51,
   },
   {
@@ -392,7 +392,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:55",
     office: "Kansas House District 55",
-    name: "To Be Determined",
+    name: "Tobias Schlingensiepen",
     sortOrder: 51,
   },
   {
@@ -476,7 +476,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:69",
     office: "Kansas House District 69",
-    name: "Molly Molina",
+    name: "Sarah Crews",
     sortOrder: 51,
   },
   {
@@ -518,7 +518,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:76",
     office: "Kansas House District 76",
-    name: "Chuck Tores",
+    name: "Eric L. Smith",
     sortOrder: 51,
   },
   {
@@ -530,7 +530,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:78",
     office: "Kansas House District 78",
-    name: "To Be Determined",
+    name: "Michael Shimeall",
     sortOrder: 51,
   },
   {
@@ -578,7 +578,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:86",
     office: "Kansas House District 86",
-    name: "No Endorsement",
+    name: "Silas Miller",
     sortOrder: 51,
   },
   {
@@ -788,7 +788,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:121",
     office: "Kansas House District 121",
-    name: "To Be Determined",
+    name: "Mel Pinick",
     sortOrder: 51,
   },
   {

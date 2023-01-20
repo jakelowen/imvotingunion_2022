@@ -2,12 +2,13 @@ const Geocodio = require("geocodio-library-node");
 const _ = require("lodash");
 const turf = require("@turf/turf");
 const endorsements = require("./endorsements");
+const electeds = require("./electeds")
 const sgcocommission = require("./sgcocommission");
 
 const geocoder = new Geocodio(process.env.GEOCODIO_API_KEY);
 
 const getDivisions = async (address) => {
-  const gres = await geocoder.geocode(address, ["cd118", "stateleg-next"]);
+  const gres = await geocoder.geocode(address, ["cd118", "stateleg"]);
 
   // console.log(gres.results[0].fields.congressional_districts);
   const divisions = [];
@@ -120,7 +121,7 @@ const matchToEndorsements = (divisions) => {
   if (!divisions) return [];
 
   divisions.forEach((division) => {
-    const matches = _.filter(endorsements, (e) => {
+    const matches = _.filter(electeds, (e) => {
       return e.division == division;
     });
 

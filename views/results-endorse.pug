@@ -35,17 +35,11 @@ html
                                                 tr
                                                     th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Name
                                                     th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Position
-                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Office
-                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Email
-                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Phone
                                             tbody.lh-copy
                                                 each val in matches
                                                     tr
-                                                        td.pv3.pr3.bb.b--black-20.b= val.fullname
+                                                        td.pv3.pr3.bb.b--black-20.b= val.name
                                                         td.pv3.pr3.bb.b--black-20= val.office
-                                                        td.pv3.pr3.bb.b--black-20= val.officenum
-                                                        td.pv3.pr3.bb.b--black-20= val.email
-                                                        td.pv3.pr3.bb.b--black-20= val.offph
                     .fl.w-100.w-30-ns.pa2
                         .bg-white.pv4
                             div

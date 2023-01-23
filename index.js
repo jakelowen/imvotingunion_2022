@@ -30,7 +30,7 @@ router.get(
 
     if (endorsements.length === 0) {
       errorMsg =
-        'We found no endorsements for your address. Please verify you used your FULL address including city, state & zipcode. Like "3340 W. Douglas, Wichita KS 67203". If problems persist contact jake@whlaborfed.org.';
+        'We found no matches for your address. Please verify you used your FULL address including city, state & zipcode. Like "3340 W. Douglas, Wichita KS 67203". If problems persist contact jake@whlaborfed.org.';
     }
 
     res.render("results", {

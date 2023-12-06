@@ -8,7 +8,7 @@ const sgcocommission = require("./sgcocommission");
 const geocoder = new Geocodio(process.env.GEOCODIO_API_KEY);
 
 const getDivisions = async (address) => {
-  const gres = await geocoder.geocode(address, ["cd118", "stateleg"]);
+  const gres = await geocoder.geocode(address, ["cd118", "stateleg-next"]);
 
   // console.log(gres.results[0].fields.congressional_districts);
   const divisions = [];

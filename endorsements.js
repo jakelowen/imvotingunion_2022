@@ -1027,4 +1027,10 @@ module.exports = [
     name: "...coming soon",
     sortOrder: 21,
   },
+  {
+    division: "ocd-division/country:us/state:ks",
+    office: "United States President",
+    name: "Kamala Harris",
+    sortOrder: 1,
+  },
 ];

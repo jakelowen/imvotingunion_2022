@@ -1,8 +1,7 @@
 const Geocodio = require("geocodio-library-node");
 const _ = require("lodash");
 const turf = require("@turf/turf");
-const endorsements = require("./endorsements");
-const electeds = require("./electeds")
+// const electeds = require("./electeds")
 const sgcocommission = require("./sgcocommission");
 
 const geocoder = new Geocodio(process.env.GEOCODIO_API_KEY);
@@ -115,13 +114,13 @@ const getDivisions = async (address) => {
   return divisions;
 };
 
-const matchToEndorsements = (divisions) => {
+const matchToEndorsements = (divisions, list) => {
   let matched = [];
 
   if (!divisions) return [];
 
   divisions.forEach((division) => {
-    const matches = _.filter(electeds, (e) => {
+    const matches = _.filter(list, (e) => {
       return e.division == division;
     });
 
@@ -139,7 +138,7 @@ module.exports = {
 // async function main() {
 //   const foo = await getDivisions("765 Ash St, Lawrence KS 66044");
 //   console.log({ foo });
-//   const sorted = matchToEndorsements(foo);
+//   const sorted = matchToEndorsements(foo, endorsements);
 //   console.log({ sorted });
 // }
 

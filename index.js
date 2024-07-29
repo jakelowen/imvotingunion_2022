@@ -1,5 +1,6 @@
 const express = require("express");
 const asyncHandler = require("express-async-handler");
+const endorsementsReference = require("./endorsements");
 
 const logic = require("./logic");
 
@@ -26,7 +27,7 @@ router.get(
         "Something went wrong please check your address and try again. If problems persist contact jake@whlaborfed.org.";
     });
 
-    endorsements = logic.matchToEndorsements(divisions);
+    endorsements = logic.matchToEndorsements(divisions, endorsementsReference);
 
     if (endorsements.length === 0) {
       errorMsg =

@@ -1,0 +1,77 @@
+html
+    head
+        meta(charset='utf-8')
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Im Voting Union
+        link(rel='stylesheet', href='https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css')
+    body.sans-serif 
+        .main
+            header.bg-gold.sans-serif
+                .mw9.center.pa4.pt5-ns.ph7-l
+                    .f6.mb2.dib.ttu.tracked
+                        small For working families 
+                    h3.f2.f1-m.f-headline-l.measure-narrow.lh-title.mv0
+                        span.bg-black-90.lh-copy.white.pa1.tracked-tight I'm voting union.
+                    h4.f3.fw1.georgia.i
+                        | Kansas Labor believes in strong unions, safe workplaces, quality education and vocational
+                        | programs, affordable health care for all, and a Kansas where workers can 
+                        | provide a high quality of life for their families.
+            .mw9.center.ph3-ns
+                .cf.ph2-ns
+                    .fl.w-100.w-70-ns.pa2
+                        .bg-white.pv4.sans-serif
+                            .pa4
+                                if errorMsg
+                                    div.flex.items-center.justify-center.pa4.bg-lightest-blue.navy
+                                        svg.w1(data-icon="info" viewBox="0 0 32 32" style="fill:currentcolor")
+                                            title info icon
+                                            path(d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6")
+                                        span.lh-title.ml3= errorMsg
+                                else
+                                    .overflow-auto.pa4.black-80
+                                        table.f6.w-100.mw8.center(cellspacing="0")
+                                            thead
+                                                tr
+                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Name
+                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Position
+                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Office
+                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Email
+                                                    th.fw6.bb.b--black-20.tl.pb3.pr3.bg-white Phone
+                                            tbody.lh-copy
+                                                each val in matches
+                                                    tr
+                                                        td.pv3.pr3.bb.b--black-20.b= val.fullname
+                                                        td.pv3.pr3.bb.b--black-20= val.office
+                                                        td.pv3.pr3.bb.b--black-20= val.officenum
+                                                        td.pv3.pr3.bb.b--black-20= val.email
+                                                        td.pv3.pr3.bb.b--black-20= val.offph
+                    .fl.w-100.w-30-ns.pa2
+                        .bg-white.pv4
+                            div
+
+                                h3.f1.lh-title.measure-narrow.lh-title.mv0.f1.lh-title.sans-serif.pt5
+                                    span.bg-black-90.lh-copy.white.pa1.tracked-tight Speak out.
+
+                                p.normal 
+                                    | Though elections are over, the work is not! Now is the time for Union Brothers and Sisters to hold our elected officials 
+                                    | accountable to the interests of working Kansans. We must use our voices to ensure our elected officials deliver on their 
+                                    | promises-- higher wages to keep pace with inflation, safe working conditions, a strong public education system, and 
+                                    | dignity & respect for working people. 
+
+                                p.normal 
+                                    | Use the look up tool to the left to find your legislators. Reach out to them with your thoughts and make sure they 
+                                    | know you are engaged and watching. 
+
+                                p.normal
+                                    | Download a full list of 
+                                    | #[a(href="https://drive.google.com/file/d/1ME740yWkfTuN57sOTyR2wsdVRmddSYFN/view?usp=sharing") Kansas Legislators] or
+                                    | #[a(href="https://drive.google.com/file/d/1Pa2Be6goALZdu8HVAX3D2YxCEXHnOr9f/view?usp=sharing") Committees] 
+
+                                 
+
+        footer.bg-near-black.white-80.pv5.pv6-l.ph4
+            p.f6
+                span.dib.mr4.mr5-ns
+                    | ©2022 Created and Paid for by the
+                    a.link.white-80.hover-light-purple(href="http://whlaborfed.org")
+                        | Wichita / Hutchinson Labor Federation

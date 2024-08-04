@@ -1033,4 +1033,28 @@ module.exports = [
     name: "Celeste Racette",
     sortOrder: 61,
   },
+  {
+    division: "ocd-division/country:us/state:ks/sboe:2",
+    office: "State Board of Education District 2",
+    name: "Melanie Haas",
+    sortOrder: 71,
+  },
+  {
+    division: "ocd-division/country:us/state:ks/sboe:4",
+    office: "State Board of Education District 4",
+    name: "Kris Meyer",
+    sortOrder: 71,
+  },
+  {
+    division: "ocd-division/country:us/state:ks/sboe:6",
+    office: "State Board of Education District 6",
+    name: "Beryl Ann New",
+    sortOrder: 71,
+  },
+  {
+    division: "ocd-division/country:us/state:ks/sboe:8",
+    office: "State Board of Education District 8",
+    name: "Betty Arnold",
+    sortOrder: 71,
+  },
 ];

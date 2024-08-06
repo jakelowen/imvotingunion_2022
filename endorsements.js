@@ -1004,7 +1004,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:97",
     office: "Kansas House District 97",
-    name: "Christine Pruit",
+    name: "Christine Pruitt",
     sortOrder: 51,
   },
   {

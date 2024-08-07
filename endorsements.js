@@ -98,7 +98,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldu:2",
     office: "Kansas Senate District 2",
-    name: "Winner of Dem Primary",
+    name: "Marci Francisco",
     sortOrder: 41,
   },
   {
@@ -230,7 +230,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldu:4",
     office: "Kansas Senate District 4",
-    name: "Winner of Dem Primary",
+    name: "David Haley",
     sortOrder: 41,
   },
   {
@@ -278,7 +278,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:10",
     office: "Kansas House District 10",
-    name: "Winner of Dem Primary",
+    name: "Suzanne Wikle",
     sortOrder: 51,
   },
   {
@@ -668,7 +668,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:46",
     office: "Kansas House District 46",
-    name: "Winner of Dem Primary",
+    name: "Brooklynne Mosley",
     sortOrder: 51,
   },
   {
@@ -746,7 +746,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:58",
     office: "Kansas House District 58",
-    name: "Winner of Dem Primary",
+    name: "Alexis Simmons",
     sortOrder: 51,
   },
   {
@@ -944,7 +944,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:88",
     office: "Kansas House District 88",
-    name: "Winner of Dem Primary",
+    name: "Veronica Gillette",
     sortOrder: 51,
   },
   {

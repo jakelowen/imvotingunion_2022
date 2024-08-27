@@ -884,7 +884,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldl:79",
     office: "Kansas House District 79",
-    name: "No endorsement",
+    name: "Siobhan McIntyre",
     sortOrder: 51,
   },
   {
@@ -1055,6 +1055,12 @@ module.exports = [
     division: "ocd-division/country:us/state:ks/sboe:8",
     office: "State Board of Education District 8",
     name: "Betty Arnold",
+    sortOrder: 71,
+  },
+  {
+    division: "ocd-division/country:us/state:ks/sboe:10",
+    office: "State Board of Education District 10",
+    name: "Jeffrey Jarman",
     sortOrder: 71,
   },
 ];

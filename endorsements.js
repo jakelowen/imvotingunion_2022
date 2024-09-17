@@ -140,7 +140,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldu:26",
     office: "Kansas Senate District 26",
-    name: "J.C. Moore",
+    name: "No endorsement",
     sortOrder: 41,
   },
   {

@@ -1,8 +1,8 @@
 module.exports = [
   {
     division: "ocd-division/country:us/state:ks",
-    office: "United States President",
-    name: "Kamala Harris",
+    office: "United States President / Vice-President",
+    name: "Kamala Harris / Tim Walz",
     sortOrder: 1,
   },
   {
@@ -14,7 +14,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/cd:2",
     office: "United States House of Representatives District 2",
-    name: "Matt Kleinmann",
+    name: "No endorsement",
     sortOrder: 21,
   },
   {
@@ -92,7 +92,7 @@ module.exports = [
   {
     division: "ocd-division/country:us/state:ks/sldu:19",
     office: "Kansas Senate District 19",
-    name: "No endorsement",
+    name: "Patrick Schmidt",
     sortOrder: 41,
   },
   {
